@@ -1,13 +1,9 @@
-import type { NextPage } from "next";
+import type { NextPage } from 'next'
 
-import { CalculateSum } from "@components/CalculateSum";
+const foo = 'bla'
 
 const Home: NextPage = () => {
-  return (
-    <div>
-      <CalculateSum />
-    </div>
-  );
-};
+  return <div></div>
+}
 
-export default Home;
+export default Home
